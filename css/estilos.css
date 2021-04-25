@@ -173,6 +173,7 @@ h1{
 }
 .t4 .caja span{
     display: block;
+    max-width: 290px;
     padding: 0 5px;
     border-left: 5px solid var(--bg) ;
     margin: 0 15px;
