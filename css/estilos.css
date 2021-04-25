@@ -158,7 +158,10 @@ h1{
     margin-left: 50px;
     text-align: left;
 }
-
+.t4 a{
+    text-decoration: none;
+    color: black;
+}
 .t4 .caja{
     padding: 20px 0;
     cursor: pointer;
@@ -173,14 +176,16 @@ h1{
     padding: 0 5px;
     border-left: 5px solid var(--bg) ;
     margin: 0 15px;
+    font-size: 20px;
 }
 .t4 .caja:hover span{
     color: var(--bg);
 }
 
 footer{
+   
     background-color: #1c180e;
-    height: 200PX;
+    height: 350PX;
     padding: 70px 0;
     text-align: center;
     color: white;
@@ -202,6 +207,15 @@ footer .linea{
 }
 
 footer img{
+
     width: 200px;
-    margin-top: 50px;
+    margin: 50px 0;
+}
+
+footer span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin: 10px;
+    color: var(--bg);
+    display: block;
 }
