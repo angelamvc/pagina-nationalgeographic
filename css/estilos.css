@@ -1,0 +1,207 @@
+*{
+    font-family: sans-serif;  
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --bg:#FFCE00;
+}
+.t1 a,.t3 a{
+    color:black ;
+    text-decoration: none;
+}
+.t2 a{
+    color:white ;
+    text-decoration: none;
+}
+.t1 a:hover{
+   border-bottom: 1px solid black;
+}
+#borde{
+    border-right: 1px solid black;
+}
+.t1 tr{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.t1 th{
+    padding: 5px;
+
+}
+.t1 th span{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.t1 {
+    background-color: rgb(255, 217, 0);
+    width: 100%;
+}
+.t2 {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+}
+
+.t2 th{
+    cursor: pointer;
+
+    padding: 5px 15px;
+
+}
+#espa{
+    border-bottom:1px solid yellow;
+
+}
+#espa span{
+    color: #f1c40f;
+}
+.t2 span{
+    font-size: 12px;
+    color: white;
+}
+
+.t2 th:hover{
+    border-bottom:1px solid gray;
+}
+
+.t3{
+    width: 100%;
+    box-shadow: 0 0 5px gray;
+}
+
+.t3 img{
+    width: 150px;
+}
+
+.t3 span{
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: rgb(78, 78, 78);
+    cursor: pointer;
+}
+
+
+.t3 .peqs span{
+    font-size: 13px;
+    text-transform: capitalize;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(139, 139, 139);
+}
+
+.peqs i{
+    color: var(--bg);
+}
+.t3 tr th{
+    padding: 10px ;
+}
+.t3 tr th span a:hover{
+    color: var(--bg);
+}
+.tablasfijas{
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    position: fixed;
+}
+main{
+    margin-top:150px ;
+}
+.anuncio{
+    margin: 10px auto;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    background-color: rgb(214, 214, 214);
+    height: 80px;
+}
+h1{
+    text-align: center;
+    margin-top:10px;
+    font-family: serif;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+.fila{
+    padding:15px 0;
+    background-color: rgba(226, 226, 226, 0.212);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.fila span{
+    font-weight: bold;
+    display: flex;
+    font-size: 22px;
+    margin: 5px 15px;
+    color: rgb(88, 88, 88);
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    width: 25px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 50%;
+}
+.fila span:hover{
+    color: black;
+}
+
+.t4{
+    padding: 40px 0;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.t4 .caja{
+    padding: 20px 0;
+    cursor: pointer;
+
+}
+.t4 .caja img{    
+    margin: 0 15px;
+    width: 290px;
+}
+.t4 .caja span{
+    display: block;
+    padding: 0 5px;
+    border-left: 5px solid var(--bg) ;
+    margin: 0 15px;
+}
+.t4 .caja:hover span{
+    color: var(--bg);
+}
+
+footer{
+    background-color: #1c180e;
+    height: 200PX;
+    padding: 70px 0;
+    text-align: center;
+    color: white;
+}
+footer h2{
+    color: var(--bg);
+    margin: 20px 0;
+    font-size: 60px;
+    font-family: serif;
+    font-weight: lighter;
+}
+footer .linea{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 2px;
+    background-color: var(--bg);
+}
+
+footer img{
+    width: 200px;
+    margin-top: 50px;
+}
