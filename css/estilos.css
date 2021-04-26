@@ -186,7 +186,6 @@ h1{
 footer{
    
     background-color: #1c180e;
-    height: 350PX;
     padding: 70px 0;
     text-align: center;
     color: white;
@@ -207,7 +206,7 @@ footer .linea{
     background-color: var(--bg);
 }
 
-footer img{
+footer img:first-child{
 
     width: 200px;
     margin: 50px 0;
